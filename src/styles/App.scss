@@ -1,0 +1,36 @@
+@import './core/reset';
+@import './core/variables';
+
+body {
+    background-color: whitesmoke
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px;
+}
+
+.title {
+    color: $color;
+    font-family: $font-family;
+}
+
+.paragraph {
+    font-family: $font-family;
+    
+}
+
+.btn {
+    margin-top: 25px;
+    height: 50px;
+    background-color: $color;
+    border: none;
+    border-radius: 10px;
+    font-family: $font-family;
+}
+
+.refran {
+    font-family: $font-family; 
+}
